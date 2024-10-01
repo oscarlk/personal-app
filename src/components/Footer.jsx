@@ -10,7 +10,7 @@ function Footer() {
                 <LinkedinIcon></LinkedinIcon>
             </a>
         </div>
-        <p>&copy; 2024 oscarkhowong.com</p>
+        <p>&copy; 2024 oscarlk.github.io/personal-app</p>
     </div>
   )
 }
