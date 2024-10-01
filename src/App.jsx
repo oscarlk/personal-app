@@ -9,9 +9,11 @@ import ProjectDisplay from './pages/ProjectDisplay';
 
 function App() {
 
+  const basename = import.meta.env.DEV ? '/' : '/personal-app/';
+
   return (
     <div className='App'>
-      <Router>
+      <Router basename={basename}>
         <Navbar/>
         <Routes>
           <Route path = "/" element = {<Home />}/>
